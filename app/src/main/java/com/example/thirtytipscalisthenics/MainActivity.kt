@@ -105,6 +105,8 @@ fun ThirtyTipsApp() {
     val listState = rememberLazyListState()
     val coroutineScope = rememberCoroutineScope()
 
+    var feedbackInput by remember { mutableStateOf("") }
+
     Scaffold(
         modifier = Modifier.fillMaxSize(),
         topBar = {
@@ -151,6 +153,8 @@ fun ThirtyTipsApp() {
         TipsList(
             tips = tips,
             listState = listState,
+            feedbackInput = feedbackInput,
+            onFeedbackChange = { feedbackInput = it },
             contentPadding = innerPadding
         )
     }
@@ -188,6 +192,8 @@ fun TopAppBar(modifier: Modifier = Modifier) {
 fun TipsList(
     tips: List<Tip>,
     listState: LazyListState,
+    feedbackInput: String,
+    onFeedbackChange: (String) -> Unit,
     modifier: Modifier = Modifier,
     contentPadding: PaddingValues = PaddingValues(0.dp)
 ) {
@@ -205,6 +211,89 @@ fun TipsList(
                 modifier = Modifier
                     .padding(horizontal = 16.dp, vertical = 8.dp)
             )
+        }
+        item {
+            OutlinedTextField(
+                value = feedbackInput,
+                onValueChange = onFeedbackChange,
+                label = {
+                    Text("Leave us some feedback!")
+                },
+                keyboardOptions = KeyboardOptions.Default.copy(
+                    imeAction = ImeAction.Send
+                ),
+                keyboardActions = KeyboardActions(
+                    onSend = {
+                        onFeedbackChange("")
+                    }
+                ),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 16.dp, vertical = 12.dp)
+                    .background(MaterialTheme.colorScheme.surfaceContainerLow),
+                singleLine = false,
+                colors = OutlinedTextFieldDefaults.colors(
+                    focusedContainerColor = MaterialTheme.colorScheme.surfaceContainerHighest,
+                    unfocusedContainerColor = MaterialTheme.colorScheme.surfaceContainerLowest,
+                    disabledContainerColor = MaterialTheme.colorScheme.surface,
+                )
+            )
+        }
+
+        item {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(top = 8.dp)
+                    .background(MaterialTheme.colorScheme.surfaceContainerHighest),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                Text(
+                    text = "Check us out on social media",
+                    style = MaterialTheme.typography.titleLarge,
+                    modifier = Modifier.padding(bottom = 20.dp, top = 12.dp),
+                    fontFamily = OswaldFamily
+                )
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 32.dp),
+                    horizontalArrangement = Arrangement.SpaceAround,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Icon(
+                        painter = painterResource(R.drawable.linkedin_square_icon),
+                        contentDescription = "Linkedin logo",
+                        tint = Color.Unspecified,
+                        modifier = Modifier.size(44.dp)
+                    )
+                    Icon(
+                        painter = painterResource(R.drawable._023_facebook_icon),
+                        contentDescription = "Facebook logo",
+                        tint = Color.Unspecified,
+                        modifier = Modifier.size(44.dp)
+                    )
+                    Icon(
+                        painter = painterResource(R.drawable.instagram_svgrepo_com),
+                        contentDescription = "Instagram logo",
+                        tint = Color.Unspecified,
+                        modifier = Modifier.size(44.dp)
+                    )
+                    Icon(
+                        painter = painterResource(R.drawable.youtube_color_svgrepo_com),
+                        contentDescription = "YouTube logo",
+                        tint = Color.Unspecified,
+                        modifier = Modifier.size(44.dp)
+                    )
+                }
+                Text(
+                    text = "Copyright © 2025 Andrei Rusanescu. All rights reserved.",
+                    style = MaterialTheme.typography.titleSmall,
+                    fontFamily = OswaldFamily,
+                    modifier = Modifier.padding(top = 20.dp, bottom = 12.dp)
+                )
+            }
+
         }
     }
 }
