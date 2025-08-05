@@ -1,0 +1,379 @@
+<resources>
+    <string name="app_name">ThirtyTipsCalisthenics</string>
+    <string name="tip1">Foundation First</string>
+    <string name="description_title1">Begin the calisthenics routine</string>
+    <string name="description1">
+        • 3×10 push-ups\n
+        • 3×20 air squats\n
+        • 3×15 crunches\n
+        Focus on form over speed\n
+    </string>
+    <string name="nutrition1">Nutrition: Eat clean</string>
+    <string name="nutrition_description1">
+        Breakfast: oatmeal + banana\n
+        Lunch: grilled chicken + rice + veggies\n
+        Dinner: tuna salad + olive oil dressing\n
+    </string>
+
+    <string name="tip2">Core Awakening</string>
+    <string name="description_title2">Core-focused day</string>
+    <string name="description2">
+        • 3×30s plank\n
+        • 3×15 leg raises\n
+        • 3×20 Russian twists\n
+    </string>
+    <string name="nutrition2">Nutrition: Include healthy fats</string>
+    <string name="nutrition_description2">
+        Avocado toast + eggs for breakfast\n
+        Brown rice + salmon for lunch\n
+        Greek yogurt + honey + walnuts for snack\n
+    </string>
+
+    <string name="tip3">Lower Body Power</string>
+    <string name="description_title3">Build leg strength</string>
+    <string name="description3">
+        • 4×20 squats\n
+        • 4×10 lunges per leg\n
+        • 3×15 calf raises\n
+    </string>
+    <string name="nutrition3">Nutrition: High protein, carbs</string>
+    <string name="nutrition_description3">
+        Sweet potato + lean beef\n Breakfast: protein shake + toast with peanut butter\n
+    </string>
+
+
+    <string name="tip4">Push It!</string>
+    <string name="description_title4">Push-focused upper body</string>
+    <string name="description4">
+        • 4×12 incline push-ups\n
+        • 4×8 triceps dips\n
+        • 3×10 diamond push-ups\n
+    </string>
+    <string name="nutrition4">Nutrition: greenery, protein</string>
+    <string name="nutrition_description4">Add leafy greens (spinach, kale) and lean protein. Include chickpea salad or chicken wraps</string>
+
+
+    <string name="tip5">Recovery and Mobility</string>
+    <string name="description_title5">Rest day</string>
+    <string name="description5">
+        Light stretching and 30-min walk. Do yoga or mobility drills\n
+    </string>
+    <string name="nutrition5">Nutrition: hydration, veggies</string>
+    <string name="nutrition_description5">Focus on hydration and anti-inflammatory foods: turmeric tea, berries, salmon, leafy greens</string>
+
+
+    <string name="tip6">Back day</string>
+    <string name="description_title6">Back and biceps activation</string>
+    <string name="description6">
+        Use resistance bands or pull-up bar\n
+        • 3×5 pull-ups (or negatives)\n
+        • 3x5 chin-ups (or negatives)\n
+        • Dead hang (until failure)\n
+    </string>
+    <string name="nutrition6">Nutrition: Iron + Vitamin C</string>
+        <string name="nutrition_description6">
+        Add red meat (in moderation) or tempeh for iron\n
+        Have vitamin C (like oranges) to aid absorption\n
+    </string>
+
+        <string name="tip7">Core Reboot</string>
+        <string name="description_title7">Core stability</string>
+        <string name="description7">
+        • 3×25 crunches\n
+        • 3×20 leg raises\n
+        • 3×35s plank\n
+    </string>
+        <string name="nutrition7">Nutrition: Fresh and filling</string>
+        <string name="nutrition_description7">
+        Fresh fruit + cottage cheese or eggs for breakfast\n
+        Quinoa bowl with grilled veggies\n
+    </string>
+
+        <string name="tip8">Explosive Legs</string>
+        <string name="description_title8">Plyometric lower body</string>
+        <string name="description8">
+        • 3×20 jump squats\n
+        • 3×10 lunges (each leg)\n
+        • 3×20s wall sit\n
+    </string>
+        <string name="nutrition8">Nutrition: Carbs + protein</string>
+        <string name="nutrition_description8">
+        Eat slow carbs (brown rice, oats) and protein\n
+        Add legumes like lentils\n
+    </string>
+
+        <string name="tip9">Push-up Variations</string>
+        <string name="description_title9">Push-up evolution</string>
+        <string name="description9">
+        • 3×10 wide push-ups\n
+        • 3×10 diamond push-ups\n
+        • 3×10 archer push-ups\n
+    </string>
+        <string name="nutrition9">Nutrition: Magnesium rich</string>
+        <string name="nutrition_description9">
+        Focus on magnesium (nuts, seeds, dark chocolate)\n
+        Chicken breast with steamed broccoli\n
+    </string>
+
+        <string name="tip10">Active Recovery</string>
+        <string name="description_title10">Low-intensity day</string>
+        <string name="description10">
+        Go for a walk or swim\n
+    </string>
+        <string name="nutrition10">Nutrition: Anti-inflammatory</string>
+        <string name="nutrition_description10">
+        Ginger tea, turmeric rice, sautéed spinach, and salmon or tofu.\n
+    </string>
+
+        <string name="tip11">Balance and Control</string>
+        <string name="description_title11">Stability training</string>
+        <string name="description11">
+        • 3×20 squats\n
+        • 3×15 Bulgarian split squats\n
+        • 3×30s side plank (each side)\n
+    </string>
+        <string name="nutrition11">Nutrition: Fermented and fiber</string>
+        <string name="nutrition_description11">
+        Add fermented foods (kimchi, kefir) and green tea\n
+        Maintain a fiber-rich diet\n
+    </string>
+
+        <string name="tip12">Pull Strength II</string>
+        <string name="description_title12">Pulling gains</string>
+        <string name="description12">
+        • 4×5 pull-ups (or negatives)\n
+        • 3×8 chin-ups\n
+        • 3x12 inverted rows\n
+    </string>
+        <string name="nutrition12">Nutrition: Iron + fiber carbs</string>
+        <string name="nutrition_description12">
+        Include beans, spinach, beef or seitan\n
+    </string>
+
+        <string name="tip13">Static Holds</string>
+        <string name="description_title13">Bodyweight endurance</string>
+        <string name="description13">
+        • 3×30s plank\n
+        • 3×30s wall sit\n
+        • 3×30s hollow body hold\n
+    </string>
+        <string name="nutrition13">Nutrition: Balanced macros</string>
+        <string name="nutrition_description13">
+        Try tofu stir fry with wild rice and greens\n
+        Blueberries and almonds for snack\n
+    </string>
+
+        <string name="tip14">Midpoint Recovery</string>
+        <string name="description_title14">Mid-program rest</string>
+        <string name="description14">
+        Rest or light jog. Stretch your hamstrings and back.\n
+    </string>
+        <string name="nutrition14">Nutrition: Hydrating and light</string>
+        <string name="nutrition_description14">
+        Add citrus, cucumber, and mint to water\n
+        Light meals with veggies and lean protein\n
+    </string>
+
+        <string name="tip15">Explosive Upper Body</string>
+        <string name="description_title15">Power focus</string>
+        <string name="description15">
+        • 3×15 clap push-ups\n
+        • 3×15 explosive incline push-ups\n
+        • 3×15 archer push-ups\n
+    </string>
+        <string name="nutrition15">Nutrition: High carb, recovery</string>
+        <string name="nutrition_description15">
+        More carbs today (oats, banana, honey) + lean meat\n
+        Post-workout shake with protein + berries\n
+    </string>
+
+        <string name="tip16">Abs on Fire</string>
+        <string name="description_title16">High volume abs</string>
+        <string name="description16">
+        • 4×20 bicycle crunches\n
+        • 3×15 leg raises\n
+        • 3×30s hollow body hold\n
+    </string>
+        <string name="nutrition16">Nutrition: Low sugar</string>
+        <string name="nutrition_description16">
+        Focus on nuts, eggs, avocado, and lots of water\n
+    </string>
+
+        <string name="tip17">Endurance Legs</string>
+        <string name="description_title17">Leg stamina</string>
+        <string name="description17">
+        • 3×40 walking lunges\n
+        • 3×15 jump squats\n
+        • 3×30s wall sit\n
+    </string>
+        <string name="nutrition17">Nutrition: Endurance boost</string>
+        <string name="nutrition_description17">
+        Add beets and nitrate-rich greens\n
+        Smoothie with banana + spinach + beet powder\n
+    </string>
+
+        <string name="tip18">Mobility + back</string>
+        <string name="description_title18">Chilling pulling day</string>
+        <string name="description18">
+        • 3×10 inverted rows\n
+        • Dead hang (until failure)\n
+    </string>
+        <string name="nutrition18">Nutrition: Protein + fiber</string>
+        <string name="nutrition_description18">
+        Egg salad with whole grain bread\n
+        Hummus with carrots and celery\n
+    </string>
+
+        <string name="tip19">Mobility + Recovery</string>
+        <string name="description_title19">Restore and reset</string>
+        <string name="description19">
+        45 minutes of yoga (focus on hips, back, shoulders).\n
+    </string>
+        <string name="nutrition19">Nutrition: Clean anti-inflammatory</string>
+        <string name="nutrition_description19">
+        Turmeric milk, green tea, anti-inflammatory smoothies.\n
+        Avoid processed food!\n
+    </string>
+
+        <string name="tip20">Max Push Challenge</string>
+        <string name="description_title20">Push your limits</string>
+        <string name="description20">
+        • Max push-ups in 2 min\n
+        • Max dips in 2 min\n
+        • Max diamond push-ups in 2 min\n
+    </string>
+        <string name="nutrition20">Nutrition: High carb + hydration</string>
+        <string name="nutrition_description20">
+        Whole wheat pasta, tomato, basil, and grilled chicken or mushrooms\n
+    </string>
+
+        <string name="tip21">Max Core Challenge</string>
+        <string name="description_title21">Core testing</string>
+        <string name="description21">
+        • 3×25 crunches\n
+        • 3×20 leg-raises\n
+        • 3×Max plank\n
+    </string>
+        <string name="nutrition21">Nutrition: Energizing and clean</string>
+        <string name="nutrition_description21">
+        Berries, chia seeds, and eggs\n
+        Avocado smoothie for breakfast\n
+    </string>
+
+        <string name="tip22">Dynamic Lower Body</string>
+        <string name="description_title22">Lateral movement</string>
+        <string name="description22">
+        • 3×20 squats\n
+        • 3×20 lunges\n
+        • 3×20 calf raises\n
+    </string>
+        <string name="nutrition22">Nutrient-dense meals</string>
+        <string name="nutrition_description22">
+        Sweet potato, kale, and grilled tempeh or turkey\n
+        Add citrus for vitamin C\n
+    </string>
+
+        <string name="tip23">Pull Strength</string>
+        <string name="description_title23">Final pull blast</string>
+        <string name="description23">
+        • 3×8 pull-ups\n
+        • 3×10 inverted rows\n
+        • 3×12 chin-ups\n
+    </string>
+        <string name="nutrition23">Nutrition: Iron + protein</string>
+        <string name="nutrition_description23">
+        Beans and spinach stew with brown rice\n
+    </string>
+
+        <string name="tip24">Static Mastery</string>
+        <string name="description_title24">Hold it longer</string>
+        <string name="description24">
+        • 3×30s wall sit\n
+        • 3×30s plank\n
+        • 3×30s side plank (each side)\n
+    </string>
+        <string name="nutrition24">Nutrition: balanced</string>
+        <string name="nutrition_description24">
+        Rainbow salad with olive oil and lemon\n
+        Add chicken or boiled eggs\n
+    </string>
+
+        <string name="tip25">Full Body HIIT</string>
+        <string name="description_title25">Fast and fiery</string>
+        <string name="description25">
+        3 rounds: 30s work / 10s rest\n
+        • Jump squats\n
+        • Push-ups\n
+        • Crunches\n
+        • Plank\n
+    </string>
+        <string name="nutrition25">Nutrition: Recovery meals</string>
+        <string name="nutrition_description25">
+        Carb + protein smoothie post-HIIT\n
+        Chicken and quinoa or lentil curry with brown rice\n
+    </string>
+
+        <string name="tip26">Isometric Core</string>
+        <string name="description_title26">Core stillness</string>
+        <string name="description26">
+        • 3×30s hollow hold\n
+        • 3×30s side plank (each side)\n
+        • 3×20s plank\n
+    </string>
+        <string name="nutrition26">Nutrition: Lean, protein-rich</string>
+        <string name="nutrition_description26">
+        Cottage cheese + berries\n
+        Tuna with veggies and lemon\n
+    </string>
+
+        <string name="tip27">Leg Burner</string>
+        <string name="description_title27">Leg fatigue training</string>
+        <string name="description27">
+        • 3×20 squats\n
+        • 3×10 Bulgarian split squats\n
+        • 3×20 calf raises\n
+    </string>
+        <string name="nutrition27">Nutrition: B-vitamin boost</string>
+        <string name="nutrition_description27">
+        Oats for breakfast, brown rice and chicken later\n
+    </string>
+
+        <string name="tip28">Push and Pull Combo</string>
+        <string name="description_title28">Hybrid workout</string>
+        <string name="description28">
+        • 3×20 push-ups\n
+        • 3×10 pull-ups\n
+        • 3×12 dips\n
+    </string>
+        <string name="nutrition28">Nutrition: Balanced</string>
+        <string name="nutrition_description28">
+        Chicken and avocado wrap, or beans and wild rice bowl.\n
+    </string>
+
+    <string name="tip29">Final Recovery</string>
+    <string name="description_title29">Rest before the finale</string>
+    <string name="description29">
+        Light stretching or yoga\n
+        Focus on breathwork and posture\n
+        Go for a walk\n
+    </string>
+        <string name="nutrition29">Nutrition: Hydration + fuel</string>
+        <string name="nutrition_description29">
+            Prioritize water, fruits, and clean carbs\n
+            Light meal with protein and greens\n
+    </string>
+
+        <string name="tip30">Celebration\nFull Body Challenge</string>
+        <string name="description_title30">Grand finale</string>
+        <string name="description30">
+        • 100 push-ups (in sets)\n
+        • 100 squats\n
+        • 50 pull-ups\n
+        • 5-minute plank (accumulated)\n
+    </string>
+        <string name="nutrition30">Nutrition: Reward meal</string>
+        <string name="nutrition_description30">
+        Grilled protein (chicken/fish/tofu), sweet potato, greens\n
+        Fruit smoothie with almond milk\n
+    </string>
+</resources>
