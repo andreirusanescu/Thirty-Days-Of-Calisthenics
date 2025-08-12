@@ -28,10 +28,12 @@ their thoughts and suggestions.
 |-------------------------------------------------------------|
 | ![Home](app/src/main/res/drawable-nodpi/home_picture.png)   |
 | ----------------------------------------------------------- |
+
 | Workout Description                                         |
 | ----------------------------------------------------------- |
 | ![Gallery](app/src/main/res/drawable-nodpi/middle.png)      |
 | ----------------------------------------------------------- |
+
 | Social Media Section                                        |
 | ----------------------------------------------------------- |
 | ![Social](app/src/main/res/drawable-nodpi/end.png)          |
