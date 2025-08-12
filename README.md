@@ -24,9 +24,9 @@ their thoughts and suggestions.
 
 ## 📸 Screenshots
 
-| Main Screen                                               | Workout Description                                            | Social Media Section                                  |
-|-----------------------------------------------------------|----------------------------------------------------------------|-------------------------------------------------------|
-| ![Home](app/src/main/res/drawable-nodpi/home_picture.png) | ![Gallery](app/src/main/res/drawable-nodpi/middle_picture.png) | ![Social](app/src/main/res/drawable-nodpi/footer.png) |
+| Main Screen                                               | Workout Description                                    | Social Media Section                               |
+|-----------------------------------------------------------|--------------------------------------------------------|----------------------------------------------------|
+| ![Home](app/src/main/res/drawable-nodpi/home_picture.png) | ![Gallery](app/src/main/res/drawable-nodpi/middle.png) | ![Social](app/src/main/res/drawable-nodpi/end.png) |
 
 ---
 
