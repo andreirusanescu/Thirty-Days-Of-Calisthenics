@@ -24,9 +24,9 @@ their thoughts and suggestions.
 
 ## 📸 Screenshots
 
-| Main Screen                                               | Workout Description                                     | Social Media Section                                  |
-|-----------------------------------------------------------|---------------------------------------------------------|-------------------------------------------------------|
-| ![Home](app/src/main/res/drawable-nodpi/home_picture.png) | ![Gallery](app/src/main/res/drawable-nodpi/gallery.png) | ![Social](app/src/main/res/drawable-nodpi/footer.png) |
+| Main Screen                                               | Workout Description                                            | Social Media Section                                  |
+|-----------------------------------------------------------|----------------------------------------------------------------|-------------------------------------------------------|
+| ![Home](app/src/main/res/drawable-nodpi/home_picture.png) | ![Gallery](app/src/main/res/drawable-nodpi/middle_picture.png) | ![Social](app/src/main/res/drawable-nodpi/footer.png) |
 
 ---
 
@@ -42,5 +42,5 @@ their thoughts and suggestions.
 - **SVG vector resources** for icons
 
 
-TODO: Add progress bar that is saved for a user with authentication, real feedback that is sent to a database,
+For future premises, maybe add a progress bar that is saved for a user with authentication, real feedback that is sent to a database,
 add Gemini for custom workout routines.
